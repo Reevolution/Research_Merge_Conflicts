@@ -10,18 +10,24 @@ namespace Check.ConsoleApp
     {
         private const string FirstValue = "First Value";
         private const string SecondValue = "Second Value";
+        private const string ThirdValue = "Third Value";
 
         public string GetFirstValue()
         {
-            var value = $"{DateTime.Now}";
-            var result = $"{FirstValue}_{value}";
-
-            return result;
+            return FirstValue;
         }
 
         public string GetSecondValue()
         {
-            return SecondValue;
+            var value = $"{DateTime.Now}";
+            var result = $"{SecondValue}_{value}";
+
+            return result;
+        }
+
+        public string GetThirdValue()
+        {
+            return ThirdValue;
         }
     }
 }
