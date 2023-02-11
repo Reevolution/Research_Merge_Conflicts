@@ -13,15 +13,15 @@ namespace Check.ConsoleApp
 
         public string GetFirstValue()
         {
-            return FirstValue;
+            var value = $"{DateTime.Now}";
+            var result = $"{FirstValue}_{value}";
+
+            return result;
         }
 
         public string GetSecondValue()
         {
-            var value = $"{DateTime.Now}";
-            var result = $"{SecondValue}_{value}";
-
-            return result;
+            return SecondValue;
         }
     }
 }
