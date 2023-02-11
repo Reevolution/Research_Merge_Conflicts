@@ -18,7 +18,10 @@ namespace Check.ConsoleApp
 
         public string GetSecondValue()
         {
-            return SecondValue;
+            var value = $"{DateTime.Now}";
+            var result = $"{SecondValue}_{value}";
+
+            return result;
         }
     }
 }
