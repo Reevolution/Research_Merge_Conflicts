@@ -18,7 +18,10 @@ namespace Check.ConsoleApp
 
         public string GetSecondValue()
         {
-            return SecondValue;
+            var rand = new Random();
+            var value = rand.Next(10);
+            var result = $"{SecondValue}_{value}";
+            return result;
         }
     }
 }
