@@ -13,7 +13,10 @@ namespace Check.ConsoleApp
 
         public string GetFirstValue()
         {
-            return FirstValue;
+            var value = 42;
+            var result = $"{FirstValue}_{value}";
+
+            return result;
         }
 
         public string GetSecondValue()
