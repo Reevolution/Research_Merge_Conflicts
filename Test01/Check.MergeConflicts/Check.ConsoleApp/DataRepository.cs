@@ -21,7 +21,10 @@ namespace Check.ConsoleApp
 
         public string GetSecondValue()
         {
-            return SecondValue;
+            var value = 42;
+            var result = $"{SecondValue}_{value}";
+
+            return result;
         }
     }
 }
