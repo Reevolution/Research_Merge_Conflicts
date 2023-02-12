@@ -9,8 +9,7 @@ namespace Check.ConsoleApp
     public class DataRepository
     {
         private const string FirstValue = "First Value";
-        private const string SecondValue = "Second Value";
-        private const string ThirdValue = "Third Value";
+        private const string SecondValue = "Second Value";        
 
         public string GetFirstValue()
         {
@@ -23,11 +22,6 @@ namespace Check.ConsoleApp
             var result = $"{SecondValue}_{value}";
 
             return result;
-        }
-
-        public string GetThirdValue()
-        {
-            return ThirdValue;
         }
     }
 }
