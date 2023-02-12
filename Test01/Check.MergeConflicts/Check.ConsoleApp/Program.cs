@@ -5,4 +5,5 @@ var dataRepository = new DataRepository();
 
 Console.WriteLine(dataRepository.GetFirstValue());
 Console.WriteLine(dataRepository.GetSecondValue());
+Console.WriteLine(dataRepository.GetThirdValue());
 
